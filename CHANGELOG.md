@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.7.2 (2023-03-14)
+
+
+### Features
+
+* 🎉 initial commit from 2.7.2 ([2845daf](https://github.com/MCDReforged/MCDReforged-Docker/commit/2845daf524dfdd7ef4e8fc6cd847e6221c64d523))
+
 ## 2.1.2 (2023-02-14)
 
 
