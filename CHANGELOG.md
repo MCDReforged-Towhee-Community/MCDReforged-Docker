@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.8.0](https://github.com/MCDReforged/MCDReforged-Docker/compare/v2.7.2...v2.8.0) (2023-03-26)
+
+
+### Features
+
+* 🔖 MCDR 2.8.0 ([5df8c75](https://github.com/MCDReforged/MCDReforged-Docker/commit/5df8c75639091506542c343777135db8e11f9e2d))
+
 ## 2.7.2 (2023-03-18)
 
 
