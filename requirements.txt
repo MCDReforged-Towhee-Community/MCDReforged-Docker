@@ -1,1 +1,1 @@
-mcdreforged==2.7.2
+mcdreforged==2.8.0
