@@ -8,7 +8,6 @@
 
 - Python: 3.11
 - Java: 19
-- MCDReforged: 2.7.2
 
 ## Usage
 
