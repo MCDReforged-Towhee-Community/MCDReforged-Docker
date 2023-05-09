@@ -7,7 +7,7 @@
 ## Version Info
 
 - Python: 3.11
-- Java: 19
+- Java: 19.0.2
 
 ## Usage
 

@@ -2,8 +2,8 @@
 FROM python:3.11
 
 # 2. Get Java
-RUN wget --quiet https://download.oracle.com/java/19/latest/jdk-19_linux-x64_bin.tar.gz \
-&& tar -xf jdk-19_linux-x64_bin.tar.gz \
+RUN wget --quiet https://download.oracle.com/java/19/archive/jdk-19.0.2_linux-x64_bin.tar.gz \
+&& tar -xf jdk-19.0.2_linux-x64_bin.tar.gz \
 && update-alternatives --install /usr/bin/java java /jdk-19.0.2/bin/java 1
 
 # 3. Copy files
