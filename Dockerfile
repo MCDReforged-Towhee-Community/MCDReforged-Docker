@@ -14,6 +14,7 @@ WORKDIR /mcdreforged
 VOLUME /mcdreforged
 RUN python -m venv venv \
 && /mcdreforged/venv/bin/pip install -r /requirements.txt \
+&& rm /requirements.txt \
 && /mcdreforged/venv/bin/python -m mcdreforged init \
 && cp -r /mcdreforged /mcdreforged_init
 
