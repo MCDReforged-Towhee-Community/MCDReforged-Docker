@@ -9,6 +9,19 @@
 - Python: 3.11
 - Java: 19.0.2
 
+## Plus Version
+
+We created a plus version of this image, which already installed some useful plugins. It is tagged with `-plus` suffix.
+
+If you would like to add any plugins, please open an issue.
+
+| Name | Version |
+| - | - |
+| Quick Backup Multi | 1.9.0 |
+| Minecraft Data API | 1.4.1 |
+| AdvancedCalculator | 0.3.1 |
+| Where Is | 2.0.2 |
+
 ## Usage
 
 Docker Hub: [mcdreforged/mcdreforged](https://hub.docker.com/r/mcdreforged/mcdreforged).

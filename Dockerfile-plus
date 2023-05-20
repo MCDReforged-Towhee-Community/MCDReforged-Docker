@@ -1,0 +1,8 @@
+FROM mcdreforged/mcdreforged:latest
+
+COPY ./install_plugins.py /install_plugins.py
+
+RUN /mcdreforged/venv/bin/python /install_plugins.py \
+&& rm /install_plugins.py
+
+CMD ["python", "-m", "mcdreforged"]
