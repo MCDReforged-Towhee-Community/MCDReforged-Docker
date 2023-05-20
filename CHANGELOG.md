@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.9.0](https://github.com/MCDReforged/MCDReforged-Docker/compare/v2.8.4...v2.9.0) (2023-05-20)
+
+
+### Features
+
+* ✨ add plus version ([18d85fd](https://github.com/MCDReforged/MCDReforged-Docker/commit/18d85fdf1e54f74ea48607541a8b10666224f218))
+* 🔖 2.9.0 ([7092ffb](https://github.com/MCDReforged/MCDReforged-Docker/commit/7092ffbfb0d7d4168c8e879e92e3c7335cb92bc8))
+
 ## [2.8.4](https://github.com/MCDReforged/MCDReforged-Docker/compare/v2.8.3...v2.8.4) (2023-05-09)
 
 
