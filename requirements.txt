@@ -1,2 +1,2 @@
 requests
-mcdreforged==2.9.0
+mcdreforged==2.9.1
