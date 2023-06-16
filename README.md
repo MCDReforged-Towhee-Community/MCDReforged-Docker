@@ -2,7 +2,7 @@
 
 [![Release](https://img.shields.io/github/v/release/MCDReforged/MCDReforged-Docker?label=Release)](https://github.com/MCDReforged/MCDReforged-Docker/releases)
 
-> MCDReforged Docker image.
+> [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) Docker image.
 
 ## Version Info
 
