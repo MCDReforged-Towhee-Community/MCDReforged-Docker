@@ -11,7 +11,7 @@ then
         cp -r /mcdreforged_init/* /mcdreforged/
     fi
 else
-	echo "Directory mcdreforged not found."
+    echo "Directory mcdreforged not found."
 fi
 
 # 2. Run mcdreforged
