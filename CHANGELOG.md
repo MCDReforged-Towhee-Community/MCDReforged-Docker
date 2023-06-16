@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.9.1](https://github.com/MCDReforged/MCDReforged-Docker/compare/v2.9.0...v2.9.1) (2023-06-16)
+
+
+### Features
+
+* ✨ add a image startup script ([#46](https://github.com/MCDReforged/MCDReforged-Docker/issues/46)) ([21025b6](https://github.com/MCDReforged/MCDReforged-Docker/commit/21025b65fb657867c3eca8eb5948228b48e7abc7))
+* 🔖 2.9.1 ([e4d8659](https://github.com/MCDReforged/MCDReforged-Docker/commit/e4d8659efea9d2363808a39f5efc08b4ec2325c1))
+
 ## [2.9.0](https://github.com/MCDReforged/MCDReforged-Docker/compare/v2.8.4...v2.9.0) (2023-05-20)
 
 
