@@ -24,27 +24,18 @@ If you would like to add any plugins, please open an issue.
 
 ## Usage
 
-Docker Hub: [mcdreforged/mcdreforged](https://hub.docker.com/r/mcdreforged/mcdreforged).
+Docker Hub: [mcdreforged/mcdreforged](https://hub.docker.com/r/mcdreforged/mcdreforged)
 
-The working directory is `/mcdreforged`.
+The working directory is `/mcdreforged`
 
-I leave a copy of mcdreforged init files in `/mcdreforged_init` for you to copy.
+I leave a copy of mcdreforged init files in `/mcdreforged_init` if you need to reset the working directory.
 
 ### Directly Run
 
-#### Create and Copy Files
-
-There are some mcdreforged files in the image, so if you want use volume on your host, you should copy them from the container to avoid overwriting by the empty directory on your host.
+#### Create and Run Container
 
 ```bash
-docker create -i -t --name CONTAINER --volume /path/to/somewhere:/mcdreforged mcdreforged/mcdreforged
-sudo docker cp CONTAINER:/mcdreforged_init/. /path/to/somewhere
-```
-
-#### Start Container
-
-```bash
-docker start CONTAINER
+docker run -i -t --name CONTAINER --volume /path/to/somewhere:/mcdreforged mcdreforged/mcdreforged
 ```
 
 ### Docker Compose
@@ -55,14 +46,13 @@ services:
   mcdreforged:
     image: mcdreforged/mcdreforged:latest
     volumes:
-      - ./mcdreforged:/mcdreforged
+      - /path/to/somewhere:/mcdreforged
     tty: true
     stdin_open: true
 ```
 
 ```bash
-docker compose create
-sudo docker cp CONTAINER:/mcdreforged_init/. /path/to/somewhere
+docker compose up -d
 ```
 
 ### Tips
