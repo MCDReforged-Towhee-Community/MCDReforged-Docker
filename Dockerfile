@@ -8,6 +8,7 @@ RUN wget --quiet https://download.oracle.com/java/19/archive/jdk-19.0.2_linux-x6
 
 # 3. Copy files
 COPY ./requirements.txt /requirements.txt
+COPY ./start.sh /start.sh
 
 # 4. Initialization
 WORKDIR /mcdreforged
@@ -23,4 +24,4 @@ ENV PATH="/mcdreforged/venv/bin:$PATH"
 ENV LANG C.UTF-8
 ENV PYTHONUNBUFFERED 0
 
-CMD ["python", "-m", "mcdreforged"]
+CMD ["/bin/bash", "/start.sh"]
