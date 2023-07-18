@@ -12,14 +12,14 @@ RUN apt update && apt install wget -y  && wget --quiet https://download.oracle.c
 COPY ./requirements.txt /requirements.txt
 COPY ./start.sh /start.sh
 
-# 4. Initialize
+# 4. Initialization
 WORKDIR /mcdreforged
 VOLUME /mcdreforged
-RUN python -m venv venv && \
-    /mcdreforged/venv/bin/pip install -r /requirements.txt --no-cache-dir && \
-    rm /requirements.txt && \
-    /mcdreforged/venv/bin/python -m mcdreforged init && \
-    cp -r /mcdreforged /mcdreforged_init
+RUN python -m venv venv \
+&& /mcdreforged/venv/bin/pip install -r /requirements.txt --no-cache-dir\
+&& rm /requirements.txt \
+&& /mcdreforged/venv/bin/python -m mcdreforged init \
+&& cp -r /mcdreforged /mcdreforged_init
 
 # 5. Set env
 ENV PATH="/mcdreforged/venv/bin:$PATH"
