@@ -1,5 +1,5 @@
 # 1. Python
-FROM python:3.11
+FROM python:3.11-slim
 
 # 2. Install Java
 RUN apt update && apt install wget -y  && wget --quiet https://download.oracle.com/java/19/archive/jdk-19.0.2_linux-x64_bin.tar.gz && \
