@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.10.0](https://github.com/MCDReforged/MCDReforged-Docker/compare/v2.9.1...v2.10.0) (2023-07-19)
+
+
+### Features
+
+* 🔖 2.10.0 ([f1e3d60](https://github.com/MCDReforged/MCDReforged-Docker/commit/f1e3d6099738185dc411b0ecbaa0ff6f45f40041))
+
+
+### Bug Fixes
+
+* 🐛 remove arm64 docker platform ([36faaec](https://github.com/MCDReforged/MCDReforged-Docker/commit/36faaec221c9a092da81a785e1671acfe64f0998))
+
 ## [2.9.1](https://github.com/MCDReforged/MCDReforged-Docker/compare/v2.9.0...v2.9.1) (2023-06-16)
 
 
