@@ -71,6 +71,8 @@ If you would like to add any plugins, please open an [poll](https://github.com/M
 
 This image does not contain the common linux packages, and only contains the minimal packages needed to run MCDReforged and your server.
 
+Compare the size of the default image, this image is reduced by about `500MB`
+
 ## `<version>-slim-plus`
 
 This image is based on `<version>-slim` and installed the same plugins as `<version>-plus`.
