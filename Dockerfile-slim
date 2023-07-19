@@ -17,10 +17,8 @@ COPY ./start.sh /start.sh
 WORKDIR /mcdreforged
 VOLUME /mcdreforged
 RUN python -m venv venv \
-&& apt update && apt install gcc python3-dev -y \
 && /mcdreforged/venv/bin/pip install -r /requirements.txt --no-cache-dir \
 && rm /requirements.txt \
-&& apt purge gcc python3-dev --autoremove -y && rm -rf /var/lib/apt /var/cache/apt \
 && /mcdreforged/venv/bin/python -m mcdreforged init \
 && cp -r /mcdreforged /mcdreforged_init
 
