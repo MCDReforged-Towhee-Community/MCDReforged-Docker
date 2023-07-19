@@ -52,15 +52,25 @@ docker exec -it CONTAINER pip install PACKAGE
 
 ## Image Variants
 
+** Compatibility warning: If the third-party Python packages you want to install require compiling from source, please resolve the issue on your own or avoid using the image with the `slim` tag. **
+
 ### `<version>-plus`
 
 This image installed some useful plugins, the plugins list is below.
 
 If you would like to add any plugins, please open an [poll](https://github.com/MCDReforged/MCDReforged-Docker/discussions/new?category=polls).
 
-| Name | Version |
-| - | - |
-| Quick Backup Multi | 1.9.0 |
-| Minecraft Data API | 1.4.1 |
-| AdvancedCalculator | 0.3.1 |
-| Where Is | 2.0.2 |
+| Name               | Version |
+| ------------------ | ------- |
+| Quick Backup Multi | 1.9.0   |
+| Minecraft Data API | 1.4.1   |
+| AdvancedCalculator | 0.3.1   |
+| Where Is           | 2.0.2   |
+
+### `<version>-slim`
+
+This image does not contain the common linux packages, and only contains the minimal packages needed to run MCDReforged and your server.
+
+## `<version>-slim-plus`
+
+This image is based on `<version>-slim` and installed the same plugins as `<version>-plus`.

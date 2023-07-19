@@ -62,3 +62,23 @@ jobs:
           tags: |
             mcdreforged/mcdreforged:latest-plus
             mcdreforged/mcdreforged:${{ needs.release-please.outputs.tag_name }}-plus
+
+      - name: Build and Push Slim
+        uses: docker/build-push-action@v3
+        with:
+          file: Dockerfile-slim
+          platforms: linux/amd64
+          push: true
+          tags: |
+            mcdreforged/mcdreforged:latest-slim
+            mcdreforged/mcdreforged:${{ needs.release-please.outputs.tag_name }}-slim
+
+      - name: Build and Push Slim Plus
+        uses: docker/build-push-action@v3
+        with:
+          file: Dockerfile-slim-plus
+          platforms: linux/amd64
+          push: true
+          tags: |
+            mcdreforged/mcdreforged:latest-slim-plus
+            mcdreforged/mcdreforged:${{ needs.release-please.outputs.tag_name }}-slim-plus
