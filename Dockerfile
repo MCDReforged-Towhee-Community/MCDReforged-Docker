@@ -2,11 +2,12 @@
 FROM python:3.11-slim
 
 # 2. Install Java
-RUN apt update && apt install wget -y  && wget --quiet https://download.oracle.com/java/19/archive/jdk-19.0.2_linux-x64_bin.tar.gz && \
-    tar -xf jdk-19.0.2_linux-x64_bin.tar.gz && \
-    rm jdk-19.0.2_linux-x64_bin.tar.gz && rm /jdk-19.0.2/lib/src.zip && \
-    apt purge wget -y && apt autoremove -y && apt clean && rm -rf /var/lib/apt /var/cache/apt && \
-    update-alternatives --install /usr/bin/java java /jdk-19.0.2/bin/java 1
+RUN apt update && apt install wget -y \
+&& wget --quiet https://download.oracle.com/java/19/archive/jdk-19.0.2_linux-x64_bin.tar.gz \
+&& tar -xf jdk-19.0.2_linux-x64_bin.tar.gz \
+&& rm jdk-19.0.2_linux-x64_bin.tar.gz && rm /jdk-19.0.2/lib/src.zip \
+&& apt clean && rm -rf /var/lib/apt /var/cache/apt \
+&& update-alternatives --install /usr/bin/java java /jdk-19.0.2/bin/java 1
 
 # 3. Copy files
 COPY ./requirements.txt /requirements.txt
