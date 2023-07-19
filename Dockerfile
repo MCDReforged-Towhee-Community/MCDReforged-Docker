@@ -1,9 +1,12 @@
 # 1. Python
-FROM python:3.11
+FROM python:3.11-slim
 
-# 2. Get Java
-RUN wget --quiet https://download.oracle.com/java/19/archive/jdk-19.0.2_linux-x64_bin.tar.gz \
+# 2. Install Java
+RUN apt update && apt install wget -y \
+&& wget --quiet https://download.oracle.com/java/19/archive/jdk-19.0.2_linux-x64_bin.tar.gz \
 && tar -xf jdk-19.0.2_linux-x64_bin.tar.gz \
+&& rm jdk-19.0.2_linux-x64_bin.tar.gz && rm /jdk-19.0.2/lib/src.zip \
+&& apt clean && rm -rf /var/lib/apt /var/cache/apt \
 && update-alternatives --install /usr/bin/java java /jdk-19.0.2/bin/java 1
 
 # 3. Copy files
@@ -14,7 +17,7 @@ COPY ./start.sh /start.sh
 WORKDIR /mcdreforged
 VOLUME /mcdreforged
 RUN python -m venv venv \
-&& /mcdreforged/venv/bin/pip install -r /requirements.txt \
+&& /mcdreforged/venv/bin/pip install -r /requirements.txt --no-cache-dir\
 && rm /requirements.txt \
 && /mcdreforged/venv/bin/python -m mcdreforged init \
 && cp -r /mcdreforged /mcdreforged_init
