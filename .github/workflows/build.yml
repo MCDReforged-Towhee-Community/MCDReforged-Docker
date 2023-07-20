@@ -67,7 +67,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           file: Dockerfile-slim
-          platforms: linux/amd64
+          platforms: linux/amd64,windows/amd64
           push: true
           tags: |
             mcdreforged/mcdreforged:latest-slim
@@ -77,7 +77,7 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           file: Dockerfile-slim-plus
-          platforms: linux/amd64
+          platforms: linux/amd64,windows/amd64
           push: true
           tags: |
             mcdreforged/mcdreforged:latest-slim-plus
