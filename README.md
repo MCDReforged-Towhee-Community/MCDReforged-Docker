@@ -64,3 +64,11 @@ If you would like to add any plugins, please open an [poll](https://github.com/M
 | Minecraft Data API | 1.4.1 |
 | AdvancedCalculator | 0.3.1 |
 | Where Is | 2.0.2 |
+
+### `<version>-slim`
+
+This image is based on the python slim image and does not contain the common Linux packages, only the minimum packages needed to run MCDReforged and Minecraft server.
+
+**Compatibility warning**: You may need to install some packages or take some risk of incompatibility.
+
+The `<version>-slim-plus` image is based on `<version>-slim` and installed the same plugins as `<version>-plus`.
