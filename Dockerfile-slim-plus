@@ -1,4 +1,4 @@
-FROM mcdreforged/mcdreforged-slim:latest
+FROM mcdreforged/mcdreforged:latest-slim
 
 COPY ./install_plugins.py /install_plugins.py
 
