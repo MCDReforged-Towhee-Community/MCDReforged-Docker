@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.10.1](https://github.com/MCDReforged/MCDReforged-Docker/compare/v2.10.0...v2.10.1) (2023-07-20)
+
+
+### Features
+
+* ✨ add windows/amd64 platform ([45303fa](https://github.com/MCDReforged/MCDReforged-Docker/commit/45303fa34e8682edee9ffdbb03a2dc0209000133))
+* 🔖 2.10.1 ([72a6853](https://github.com/MCDReforged/MCDReforged-Docker/commit/72a68539bdec0d980cdf76384ba297199f8a6ef2))
+
+
+### Performance Improvements
+
+* ⚡️ add slim image variety ([#50](https://github.com/MCDReforged/MCDReforged-Docker/issues/50)) ([555be8f](https://github.com/MCDReforged/MCDReforged-Docker/commit/555be8f86de0535758588b2e1aafc714637d6adf))
+
 ## [2.10.0](https://github.com/MCDReforged/MCDReforged-Docker/compare/v2.9.1...v2.10.0) (2023-07-19)
 
 
