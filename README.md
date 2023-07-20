@@ -58,12 +58,12 @@ This image installed some useful plugins, the plugins list is below.
 
 If you would like to add any plugins, please open an [poll](https://github.com/MCDReforged/MCDReforged-Docker/discussions/new?category=polls).
 
-| Name               | Version |
-| ------------------ | ------- |
-| Quick Backup Multi | 1.9.0   |
-| Minecraft Data API | 1.4.1   |
-| AdvancedCalculator | 0.3.1   |
-| Where Is           | 2.0.2   |
+| Name | Version |
+| - | - |
+| Quick Backup Multi | 1.9.0 |
+| Minecraft Data API | 1.4.1 |
+| AdvancedCalculator | 0.3.1 |
+| Where Is | 2.0.2 |
 
 ### `<version>-slim`
 
