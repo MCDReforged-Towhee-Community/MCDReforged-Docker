@@ -52,8 +52,6 @@ docker exec -it CONTAINER pip install PACKAGE
 
 ## Image Variants
 
-**Compatibility warning: If the third-party Python packages you want to install require compiling from source, please resolve the issue on your own or avoid using the image with the `slim` tag.**
-
 ### `<version>-plus`
 
 This image installed some useful plugins, the plugins list is below.
