@@ -69,8 +69,8 @@ If you would like to add any plugins, please open an [poll](https://github.com/M
 
 ### `<version>-slim`
 
-This image does not contain the common linux packages, and only contains the minimal packages needed to run MCDReforged and your server.
+This image is based on the python slim image and does not contain the common Linux packages, only the minimum packages needed to run MCDReforged and Minecraft server.
 
-Compare the size of the default image, this image is reduced by about `500MB`
+**Compatibility warning**: You may need to install some packages or take some risk of incompatibility.
 
 The `<version>-slim-plus` image is based on `<version>-slim` and installed the same plugins as `<version>-plus`.
