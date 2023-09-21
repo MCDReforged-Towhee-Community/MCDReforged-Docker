@@ -4,6 +4,8 @@
 
 > [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) Docker image.
 
+Please note that this is an unofficial image. It is maintained by community members. Please refer to the license for relevant warranties. Version updates may be delayed.
+
 ## Version Info
 
 - Python: 3.11
