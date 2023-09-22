@@ -1,5 +1,14 @@
 # Changelog
 
+## [2.10.2](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/compare/v2.10.1...v2.10.2) (2023-09-22)
+
+
+### Features
+
+* ✨ update namespace ([ec5a506](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/commit/ec5a506f6c2a3941df0dd991b46d29c2c04707e3))
+* 👷 update build workflow ([e209278](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/commit/e209278d4f84f18fc8600f73fdec017681740ab3))
+* 🔖 2.10.2 ([298a39a](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/commit/298a39a9807d272391e831b7af6dbfebb32acc03))
+
 ## [2.10.1](https://github.com/MCDReforged/MCDReforged-Docker/compare/v2.10.0...v2.10.1) (2023-07-20)
 
 
