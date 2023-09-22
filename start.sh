@@ -15,4 +15,4 @@ else
 fi
 
 # 2. Run mcdreforged
-exec python -m mcdreforged
+exec /mcdreforged/venv/bin/python -m mcdreforged
