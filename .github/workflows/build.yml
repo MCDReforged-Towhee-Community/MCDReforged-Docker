@@ -50,8 +50,8 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            mcdreforged/mcdreforged:latest
-            mcdreforged/mcdreforged:${{ needs.release-please.outputs.tag_name }}
+            mcdrtowhee/mcdreforged:latest
+            mcdrtowhee/mcdreforged:${{ needs.release-please.outputs.tag_name }}
 
       - name: Build and Push Plus
         uses: docker/build-push-action@v3
@@ -60,8 +60,8 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            mcdreforged/mcdreforged:latest-plus
-            mcdreforged/mcdreforged:${{ needs.release-please.outputs.tag_name }}-plus
+            mcdrtowhee/mcdreforged:latest-plus
+            mcdrtowhee/mcdreforged:${{ needs.release-please.outputs.tag_name }}-plus
 
       - name: Build and Push Slim
         uses: docker/build-push-action@v3
@@ -70,8 +70,8 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            mcdreforged/mcdreforged:latest-slim
-            mcdreforged/mcdreforged:${{ needs.release-please.outputs.tag_name }}-slim
+            mcdrtowhee/mcdreforged:latest-slim
+            mcdrtowhee/mcdreforged:${{ needs.release-please.outputs.tag_name }}-slim
 
       - name: Build and Push Slim Plus
         uses: docker/build-push-action@v3
@@ -80,5 +80,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            mcdreforged/mcdreforged:latest-slim-plus
-            mcdreforged/mcdreforged:${{ needs.release-please.outputs.tag_name }}-slim-plus
+            mcdrtowhee/mcdreforged:latest-slim-plus
+            mcdrtowhee/mcdreforged:${{ needs.release-please.outputs.tag_name }}-slim-plus
