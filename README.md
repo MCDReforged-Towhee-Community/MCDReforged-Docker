@@ -1,6 +1,6 @@
 # MCDReforged-Docker
 
-[![Release](https://img.shields.io/github/v/release/MCDReforged/MCDReforged-Docker?label=Release)](https://github.com/MCDReforged/MCDReforged-Docker/releases)
+[![Release](https://img.shields.io/github/v/release/MCDReforged-Towhee-Community/MCDReforged-Docker?label=Release)](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/releases)
 
 > [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) Docker image.
 
@@ -13,7 +13,7 @@ Please note that this is an unofficial image. It is maintained by community memb
 
 ## Usage
 
-Docker Hub: [mcdreforged/mcdreforged](https://hub.docker.com/r/mcdreforged/mcdreforged)
+Docker Hub: [mcdrtowhee/mcdreforged](https://hub.docker.com/r/mcdrtowhee/mcdreforged)
 
 The working directory is `/mcdreforged`
 
@@ -24,7 +24,7 @@ I leave a copy of mcdreforged init files in `/mcdreforged_init` if you need to r
 Create and Run Container:
 
 ```bash
-docker run -i -t --name CONTAINER --volume /path/to/somewhere:/mcdreforged mcdreforged/mcdreforged
+docker run -i -t --name CONTAINER --volume /path/to/somewhere:/mcdreforged mcdrtowhee/mcdreforged
 ```
 
 Docker Compose:
@@ -33,7 +33,7 @@ Docker Compose:
 version: "3.9"
 services:
   mcdreforged:
-    image: mcdreforged/mcdreforged:latest
+    image: mcdrtowhee/mcdreforged:latest
     volumes:
       - /path/to/somewhere:/mcdreforged
     tty: true
@@ -58,7 +58,7 @@ docker exec -it CONTAINER pip install PACKAGE
 
 This image installed some useful plugins, the plugins list is below.
 
-If you would like to add any plugins, please open an [poll](https://github.com/MCDReforged/MCDReforged-Docker/discussions/new?category=polls).
+If you would like to add any plugins, please open an [poll](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/discussions/new?category=polls).
 
 | Name | Version |
 | - | - |
