@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.11.0](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/compare/v2.10.2...v2.11.0) (2023-09-29)
+
+
+### Features
+
+* 🔖 2.11.0 ([fcf6891](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/commit/fcf68918f5ec4c5304bdc34a0dbe65ebbeddd7d2))
+
 ## [2.10.2](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/compare/v2.10.1...v2.10.2) (2023-09-22)
 
 
