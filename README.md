@@ -8,8 +8,8 @@ Please note that this is an unofficial image. It is maintained by community memb
 
 ## Version Info
 
-- Python: 3.11
-- Java: 19.0.2
+- Python: 3.12
+- Java: 21.0.2
 
 ## Usage
 
