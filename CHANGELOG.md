@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.12.3](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/compare/v2.12.2...v2.12.3) (2024-02-05)
+
+
+### Features
+
+* ⬆️ upgrade python to 3.12 and java to 21.0.2 ([3f5099b](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/commit/3f5099b5ac3a159f1a5fe0e38e638586f41a264a))
+* 🔖 2.12.3 ([f36af4b](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/commit/f36af4b2492ab15912d1a4721642818de89d4e74))
+
+
+### Bug Fixes
+
+* 🐛 fix venv lost issue ([36ce8fb](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/commit/36ce8fb1f1e200868a1bf1d7fcf5ee72603d5462))
+
 ## [2.12.2](https://github.com/MCDReforged-Towhee-Community/MCDReforged-Docker/compare/v2.12.1...v2.12.2) (2023-12-21)
 
 
